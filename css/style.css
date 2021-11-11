@@ -59,7 +59,7 @@ header {
   background-color: #f2f2f2;
 }
 .header-inner {
-  height: 40px;
+  height: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -169,6 +169,7 @@ input[type="checkbox"]:checked {
   cursor: inherit;
   position: relative;
   z-index: 1000;
+  outline: none;
 }
 .btn--garbage.ui-droppable-hover {
   background-color: #ffedd0;
